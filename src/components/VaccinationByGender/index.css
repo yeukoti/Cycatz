@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.boarder {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: aliceblue;
+  background-size: cover;
+  border-radius: 40px;
+  margin-right: 90px;
+}
+
+.button {
+  background-color: rgb(47, 159, 224);
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+}
+.para {
+  padding: 10px;
+  margin: 10px;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.second-layout {
+  display: flex;
+  margin: 40px;
+  background-color: aliceblue;
+  border-radius: 40px;
+}
+@media only screen and (max-width: 600px) {
+  .second-layout {
+    display: flex;
+    margin: 40px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    width: 200%;
+  }
+}
+
+.second2 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.second3 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
